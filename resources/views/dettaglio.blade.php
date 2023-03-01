@@ -1,15 +1,7 @@
-@extends('layouts.app')
-
-@section('content')
-
-  <!-- MAIN -->
-
-  <main>
-
+<x-layout>
   <div class="container py-5 my-5">
     <div class="row">
       <div class="col-12">
-        
         <div class="card mb-3" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4 d-flex align-items-center">
@@ -26,11 +18,7 @@
             </div>
           </div>
         </div>
-
       </div>    
     </div>                    
   </div>
-  
-  </main>
-  
-  @endsection
+</x-layout>
